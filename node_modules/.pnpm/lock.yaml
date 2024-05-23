@@ -1,0 +1,46 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@hono/graphql-server':
+    specifier: ^0.4.3
+    version: 0.4.3(hono@4.3.10)
+  '@hono/node-server':
+    specifier: ^1.11.1
+    version: 1.11.1
+  graphql:
+    specifier: ^16.8.1
+    version: 16.8.1
+  hono:
+    specifier: ^4.3.10
+    version: 4.3.10
+
+packages:
+
+  /@hono/graphql-server@0.4.3(hono@4.3.10):
+    resolution: {integrity: sha512-HSoOeW5F0PdlKaxC5Skc2m6mSML2yXDrVAFJfu0Hifp6igqmhqh8bhY18JgkzLyn5xuAM1/suHORETpUJnA6gQ==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      hono: '>=3.0.0'
+    dependencies:
+      graphql: 16.8.1
+      hono: 4.3.10
+    dev: false
+
+  /@hono/node-server@1.11.1:
+    resolution: {integrity: sha512-GW1Iomhmm1o4Z+X57xGby8A35Cu9UZLL7pSMdqDBkD99U5cywff8F+8hLk5aBTzNubnsFAvWQ/fZjNwPsEn9lA==}
+    engines: {node: '>=18.14.1'}
+    dev: false
+
+  /graphql@16.8.1:
+    resolution: {integrity: sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==}
+    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
+    dev: false
+
+  /hono@4.3.10:
+    resolution: {integrity: sha512-67NRwEpFljCRkdl4th4LH+DKj/skEqtRJE9otdp88CGTIMZ7uG2Avn5DTkKsGwjnm2LxkoIlA+bQfFLg33psvg==}
+    engines: {node: '>=16.0.0'}
+    dev: false
